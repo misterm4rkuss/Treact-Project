@@ -155,10 +155,8 @@ header .row {
 }
 
 .header__description {
-    text-align: center;
-    display: flex;
-    align-items: center;
-}
+    text-align: center;    
+}   
 
 .header__email--btn {
     z-index: 2;
