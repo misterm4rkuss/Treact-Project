@@ -12,6 +12,10 @@ body {
     overflow-x: hidden;
 }
 
+.container {
+    padding: 96px;
+}
+
 .row {
     width: 100%;
     max-width: 1280px;
@@ -43,6 +47,10 @@ main {
 div {
     display: block;
     unicode-bidi: isolate;
+}
+
+button {
+    cursor: pointer;
 }
 
 /*
@@ -129,3 +137,68 @@ a:hover {
 HEADER
 
 */
+
+.header__description {
+    width: 42%;
+    position: relative
+}
+
+h1 {
+    font-size: 48px;
+    color: rgb(26, 32, 44);
+    line-height: 1.25;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__description--para {
+    margin: 32px 0;
+    font-size: 18px;
+}
+
+.header__email {
+
+}
+
+.header__email--input {
+    width: 100%;
+    color: rgb(36, 62, 99);
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 1;
+    border-radius: 500px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(222, 231, 235);
+    padding: 20px 192px 20px 235px;
+
+}
+
+.header__email--btn {
+    z-index: 2;
+    height: calc(100% - 16px);
+    width: 160px;
+    background-color: rgb(100, 21, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 8px;
+    border-radius: 500px;
+    transition: 300ms;
+}
+
+.header__customers--title{
+    margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+ 
+.header__customers {
+
+}
