@@ -380,3 +380,79 @@ QUALITY WORK
     display: block;
 }
 
+/* 
+STEPS 
+*/
+
+#steps .row {
+    display: flex;
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.steps__img--wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.steps__img {
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+}
+
+.steps__description {
+    padding: 32px 0px 32px 64px;
+}
+
+.steps__description, .steps__img__wrapper {
+    width: 50%;
+}
+.steps__grid {
+    position: absolute;
+    opacity: 0.15;
+    right: 0px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+    width: 80px;
+    height: 80px;
+    fill: rgb(100, 21, 255);
+    z-index: 1;
+}
+
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
+
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(36, 62, 99);
+    line-height: 1;
+}
+
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
+}
+
+.step__para {
+    font-size: 14px;
+    color: rgb(113, 128, 150);
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.step__number {
+    color: rgb(203, 213, 224);
+    font-size: 36px;
+    font-weight: 600;
+
+}
